@@ -1,29 +1,75 @@
 data:extend({
 	{
-		type = "recipe",
-		name = "suit-plug",
-		ingredients =
-		{
-			{"battery-equipment", 2},
-			{"processing-unit", 5},
-			{"copper-plate", 5},
-			{"speed-module", 1}
+		type = 'recipe',
+		name = 'suit-plug',
+		ingredients = {
+			{
+				type = 'item',
+				name = 'battery-equipment',
+				amount = 2
+			},
+			{
+				type = 'item',
+				name = 'processing-unit',
+				amount = 5
+			},
+			{
+				type = 'item',
+				name = 'copper-plate',
+				amount = 5
+			},
+			{
+				type = 'item',
+				name = 'speed-module',
+				amount = 1
+			}
 		},
 		enabled = false,
-		result = "suit-plug"
+		results = {
+			{
+				type = 'item',
+				name = SuitPlug.suit_plug_name,
+				amount = 1
+			}
+		}
 	},
 	{
-		type = "recipe",
-		name = "suit-outlet",
-		ingredients =
-		{
-			{"speed-module", 1},
-			{"processing-unit", 5},
-			{"substation", 1},
-			{"steel-plate", 20},
-			{"accumulator", 1}
+		type = 'recipe',
+		name = 'suit-outlet',
+		ingredients = {
+			{
+				type = 'item',
+				name = 'accumulator',
+				amount = 10
+			},
+			{
+				type = 'item',
+				name = 'substation',
+				amount = 1
+			},
+			{
+				type = 'item',
+				name = 'processing-unit',
+				amount = 5
+			},
+			{
+				type = 'item',
+				name = 'steel-plate',
+				amount = 20
+			},
+			{
+				type = 'item',
+				name = 'speed-module',
+				amount = 1
+			}
 		},
 		enabled = false,
-		result = "suit-outlet"
+		results = {
+			{
+				type = 'item',
+				name = SuitPlug.outlet_name,
+				amount = 1
+			}
+		}
 	},
 })

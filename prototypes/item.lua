@@ -1,27 +1,23 @@
 data:extend(
 {
 	{
-		type = "item",
-		name = "suit-plug",
-		
-		icon = "__Suit-Plug-Continued__/graphics/suit-plug.png",
+		type = 'item',
+		name = SuitPlug.suit_plug_name,
+		icon = '__Suit-Plug-Continued__/graphics/suit-plug.png',
 		icon_size = 32,
-		flags = {"goes-to-main-inventory"},
-		subgroup = "equipment",
+		subgroup = 'equipment',
 		stack_size = 5,
-		order = "a[energy-source]-a[suit-plug]",
-		placed_as_equipment_result = "suit-plug",
+		order = 'a[energy-source]-a[suit-plug]',
+		place_as_equipment_result = SuitPlug.suit_plug_name,
 	},
 	{
-		type = "item",
-		name = "suit-outlet",
-
-		icon = "__Suit-Plug-Continued__/graphics/large_suit_outlet_icon.png",
+		type = 'item',
+		name = SuitPlug.outlet_name,
+		icon = '__Suit-Plug-Continued__/graphics/large_suit_outlet_icon.png',
 		icon_size = 32,
-		subgroup = "energy",
+		subgroup = 'energy',
 		stack_size = 10,
-		place_result = "suit-outlet",
-		order = "e[accumulator]-a[suit-outlet]",
-		flags = {"goes-to-quickbar"}
+		place_result = SuitPlug.outlet_name,
+		order = 'e[accumulator]-a[suit-outlet]'
 	},
 })

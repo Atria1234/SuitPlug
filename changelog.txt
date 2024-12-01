@@ -1,0 +1,13 @@
+﻿---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 1.12.2024
+  Info:
+    - Updated for Factorio 2.0.
+  Features:
+    - One suit plug station can charge up to 4 suit plugs at the time.
+    - One equipment grid an have multiple plug inside of it, increasing power transfer.
+    - Reworked how connection is checked. Now supports connection to any equipment grid.
+    - A "wire" is drawn between outlet and power receiving entity.
+    - Wire connection distance is configurable with mod setting.
+    - Update period how often energy from outlets to plugs are transfered is configurable with mod setting.
+    - Suit plug outlet is no longer an accumulator, so it can be charged from accumulators.

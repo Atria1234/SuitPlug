@@ -1,3 +1,0 @@
--Base mod (https://mods.factorio.com/mods/sirintellegence/Suit-Plug) created by sirintellegence
- (https://mods.factorio.com/mods/sirintellegence)
--Mod simplified and updated to 0.15 by Atria (https://mods.factorio.com/mods/Atria)

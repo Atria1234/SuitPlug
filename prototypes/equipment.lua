@@ -1,29 +1,26 @@
 data:extend(
 {
 	{
-		type = "battery-equipment",
-		name = "suit-plug",
-		sprite =
-		{
-			filename = "__Suit-Plug-Continued__/graphics/suit-plug.png",
+		type = 'battery-equipment',
+		name = SuitPlug.suit_plug_name,
+		sprite = {
+			filename = '__Suit-Plug-Continued__/graphics/suit-plug.png',
 			width = 32,
 			height = 32,
-			priority = "medium"
+			priority = 'medium'
 		},
-		shape =
-		{
+		shape = {
 			width = 1,
 			height = 1,
-			type = "full"
+			type = 'full'
 		},
-		energy_source =
-		{
-			type = "electric",
-			buffer_capacity = "1MJ",
-			input_flow_limit = "1MW",
-			output_flow_limit = "100MW",
-			usage_priority = "primary-output"
+		energy_source = {
+			type = 'electric',
+			buffer_capacity = (20000 * settings.startup[SuitPlug.mod_setting_names.update_period].value / 60)..'kJ',
+			input_flow_limit = '0W',
+			output_flow_limit = '20MW',
+			usage_priority = 'primary-output'
 		},
-		categories = {"armor"}
+		categories = {'armor'}
 	},
 })
