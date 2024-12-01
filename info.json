@@ -1,0 +1,9 @@
+{
+	"name": "Suit-Plug-Continued",
+	"version": "1.0.4",
+	"title": "Suit Plug Continued",
+	"author": "Atria",
+	"description": "Mod that allows you to charge your power suit with your factory's power",
+	"factorio_version":"0.16",
+	"dependencies": ["base"]
+}
