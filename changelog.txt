@@ -1,4 +1,14 @@
 ﻿---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+Date: 17.1.2025
+  Features:
+    - Wire connect/disconnect sound is made around the outlet when equipment grid is connected/disconnected.
+  Graphics:
+    - Used new sprite for Suit plug outlet made by Hurricane.
+  Bugfixes:
+    - Fixed crash when equipment grid became invalid (its entity was destroyed).
+
+---------------------------------------------------------------------------------------------------
 Version: 2.0.0
 Date: 1.12.2024
   Info:

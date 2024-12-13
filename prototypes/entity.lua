@@ -8,12 +8,39 @@ data:extend({
 		minable = {mining_time = 0.1, result = SuitPlug.outlet_name},
 		collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
 		selection_box = {{-1, -1}, {1, 1}},
-		picture = {
-			filename = '__Suit-Plug-Continued__/graphics/large_suit_outlet.png',
-			priority = 'extra-high',
-			width = 124,
-			height = 103,
-			shift = {0.7, -0.2}
+		continuous_animation = true,
+		animation = {
+			layers = {
+				{
+					filename = '__Suit-Plug-Continued__/graphics/suit-plug-outlet-hr-animation.png',
+					size = {160, 290},
+					position = {0, 0},
+					shift = {0, -1},
+					scale = 0.5,
+					frame_count = 16,
+					line_length = 8
+				},
+				{
+					filename = '__Suit-Plug-Continued__/graphics/suit-plug-outlet-hr-emission.png',
+					size = {160, 290},
+					position = {0, 0},
+					shift = {0, -1},
+					scale = 0.5,
+					frame_count = 1,
+					repeat_count = 16,
+					draw_as_light = true
+				},
+				{
+					filename = '__Suit-Plug-Continued__/graphics/suit-plug-outlet-hr-shadow.png',
+					size = {400, 350},
+					position = {0, 0},
+					shift = {0, -1},
+					scale = 0.5,
+					frame_count = 1,
+					repeat_count = 16,
+					draw_as_shadow = true
+				}
+			}
 		},
 		max_health = 1500,
 		corpse = 'medium-remnants',
